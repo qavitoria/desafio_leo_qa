@@ -1,0 +1,20 @@
+# Lista de elementos mapeados na utilização dos testes -> (Page Objects)
+
+# URL
+  Moodle: "https://sandbox.moodledemo.net/login/index.php"
+
+# Login
+  usuario: "//*[@id='username']"
+  senha:   "//*[@id='password']"
+  btn_entrar: "//*[@id='loginbtn']"
+  lembrar_login: "//*[@id='rememberusername']"
+  btn_visitante:  "//*[@id='guestlogin']/button"
+
+# Administração Site
+  btn_admin_site: "//*[@id='nav-drawer']/nav[2]/ul/li/a"
+  aba_cursos:     "//*[@id='region-main']/div/ul/li[3]/a"
+  add_novo_curso: "//*[@id='linkcourses']/div/div[1]/div[2]/ul/li[4]/a"
+  btn_confirma_curso: "//*[@id='id_saveanddisplay']"
+  nome_curso:     "//*[@id='id_fullname']"
+  nome_curso_abreviado: "//*[@id='id_shortname']"
+  

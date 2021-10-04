@@ -1,0 +1,12 @@
+chrome: -p bdd -p firefox -p html -p json -p report -p retry
+firefox: -p bdd -p firefox -p html -p json -p report -p retry
+chrome_headless: -p bdd -p chrome_headless -p html -p json -p report -p retry
+firefox_headless: -p bdd -p chrome_headless -p html -p json -p report -p retry
+
+bdd: --format pretty
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+chrome_headless: BROWSER=chrome_headless
+firefox_headless: BROWSER=firefox_headless
+retry: --retry 1
+report: --publish
